@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--External library - Bootstrap css/fontawesome/cdnjs-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -17,8 +19,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
+    <!--/External library - Bootstrap css/fontawesome/cdnjs-->
 
-    <!--External library - Bootstrap css/fontawesome/cdnjs-->
+    <!--Local library - style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css"/>
+    <!--/Local library - style.css-->
+
     <title>Munchkin Megan Presents</title>
   </head>
 
@@ -66,11 +72,12 @@
       </div>
     </nav>
     <!--/navbar-->
-    <article class="container">
+
+    <div class="container-fluid books-container">
       <!--all about books-->
-      <section class="title jumbotron mt-3 text-center">
-        <div class="row">
-          <div class="col-12">
+      <div class="row">
+        <div class="col-12">
+          <section class="title jumbotron text-center">
             <h1>All About Books</h1>
             <p class="lead">
               Join Megan's book club today and get the latest reviews!
@@ -85,11 +92,13 @@
             <p class="quote mt-3">
               "So many books, so little time." <br />- Frank Zappa
             </p>
-          </div>
+          </section>
         </div>
-      </section>
-      <!--/munchkin megan presents-->
+      </div>
+      <!--/all about books-->
+    </div>
 
+    <div class="container about-container">
       <!--about me-->
       <section class="munchkin megan">
         <div class="row">
@@ -114,7 +123,9 @@
         </div>
       </section>
       <!--/about me-->
+    </div>
 
+    <div class="container bookworm-container">
       <!--I am not a bookworm-->
       <section>
         <div class="row">
@@ -144,7 +155,9 @@
         </div>
       </section>
       <!--/I am not a bookworm-->
+    </div>
 
+    <div class="container challenge-container">
       <!--365 book challenge bp-->
       <section>
         <div class="row">
@@ -174,7 +187,8 @@
         </div>
       </section>
       <!--/365 book challenge bp-->
-    </article>
+    </div>
+
     <footer></footer>
     <div class="modal" tabindex="-1" role="dialog" id="bookclubModal">
       <div class="modal-dialog" role="document">
@@ -212,7 +226,9 @@
                   id="exampleInputPassword1"
                 />
               </div>
-              <button type="submit" class="btn btn-primary">Get Reading!</button>
+              <button type="submit" class="btn btn-primary">
+                Get Reading!
+              </button>
             </form>
           </div>
         </div>
