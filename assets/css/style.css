@@ -6,6 +6,46 @@ body {
 
 /*-----------------------------------------------------------------------------------Navbar*/
 
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10;
+    padding-right: 10;
+    width: 100%;
+    background-color: #f86b4f;
+    z-index: 1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-family: "Muli", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem
+
+}
+
+.navbar .navbar-nav a {
+    font-weight: 400;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #000;
+}
+
+.login-text {
+    font-family: "Muli",sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
 
 /*-----------------------------------------------------------------------------------Jumbotron*/
 
@@ -89,6 +129,12 @@ body {
     width: 150px;
 }
 
+.btn--cta-short{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 75px;
+}
+
 .btn--orange{
     color: #fff;
     background-color: #f86b4f;
@@ -101,6 +147,30 @@ body {
 .btn--orange:active:focus {
     color: #000;
     background-color: #d34f35;
-    border-color: #d34f35
+    border-color: #d34f35;
 } 
 
+
+
+
+
+
+/*-----------------------------------------------------------------------------------Modal*/
+
+.modal-title{
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;  
+}
+
+.form-group {
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.form-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: .75em;
+}

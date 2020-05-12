@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!--External library - Bootstrap css/fontawesome/cdnjs-->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <script
-      src="https://kit.fontawesome.com/f07371f622.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    />
-    <!--/External library - Bootstrap css/fontawesome/cdnjs-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!--Local library - style.css-->
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css"/>
-    <!--/Local library - style.css-->
+	<!--External library - Bootstrap css/fontawesome/cdnjs-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		type="text/css" />
+	<script src="https://kit.fontawesome.com/f07371f622.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+	<!--/External library - Bootstrap css/fontawesome/cdnjs-->
 
-    <title>Munchkin Megan Presents</title>
-  </head>
+	<!--Local library - style.css-->
+	<link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+	<!--/Local library - style.css-->
 
-  <body>
-    <!--navbar-->
-    <nav class="navbar navbar-light navbar-expand-sm">
-      <a class="navbar-brand" href="/">Munchkin Megan Presents</a>
+	<title>Munchkin Megan Presents</title>
+</head>
 
-      <button
+<body>
+	<div class="container-fluid ">
+		<!--navbar-->
+		<nav class="navbar navbar-dark navbar-expand-sm">
+			<a class="navbar-brand" href="/">Munchkin Megan Presents</a>
+
+			<button
         class="navbar-toggler ml-auto"
         type="button"
         data-toggle="collapse"
@@ -45,158 +38,160 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-          <li class="active nav-item mr-2">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#">Reviews</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#">Writing</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item mr-2 d-block d-sm-none">
-            <a class="nav-link" href="#">Sign In / Sign Up</a>
-          </li>
-        </ul>
-      </div>
-      <div class="d-none d-md-block">
-        <a href="#">Sign In / Sign Up</a>
-      </div>
-    </nav>
-    <!--/navbar-->
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="active nav-item mr-2">
+						<a class="nav-link" href="/">Home</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="#">Reviews</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="#">Writing</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="#">Gallery</a>
+					</li>
+					<li class="nav-item mr-2">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+					<li class="nav-item mr-2 d-block d-sm-none">
+						<a class="nav-link" href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2">Already a member?</p>
+				<a href="#" class="login-text">Login</a>
+			</div>
+		</nav>
+		<!--/navbar-->
+	</div>
 
-    <div class="container-fluid books-container">
-      <!--all about books-->
-      <div class="opaque-overlay">&nbsp</div>
-      <div class="row">
-        <div class="col-12">
-          <section class="jumbotron text-center">
-            <h1 class="jumbotron-header">All About Books</h1>
-            <p class="bookclub-text">
-              Join Megan's book club today and get the latest reviews!
-            </p>
-            <button
+	<div class="container-fluid books-container">
+		<!--all about books-->
+		<div class="opaque-overlay">&nbsp</div>
+		<div class="row">
+			<div class="col-12">
+				<section class="jumbotron text-center">
+					<h1 class="jumbotron-header">All About Books</h1>
+					<p class="bookclub-text">
+						Join Megan's book club today and get the latest reviews!
+					</p>
+					<button
               class="btn btn-lg btn--cta btn--orange"
               data-toggle="modal"
               data-target="#bookclubModal"
             >
               Get reading!
             </button>
-            <p class="smb-quote mt-3">
-              "So many books, so little time." <br />- Frank Zappa
+					<p class="smb-quote mt-3">
+						"So many books, so little time." <br />- Frank Zappa
             </p>
-          </section>
-        </div>
-      </div>
-      <!--/all about books-->
-    </div>
+				</section>
+			</div>
+		</div>
+		<!--/all about books-->
+	</div>
 
-    <div class="container about-container">
-      <!--about me-->
-      <section class="munchkin megan">
-        <div class="row">
-          <div class="col-12 my-3">
-            <h2>About me</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="about-me">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/about me-->
-    </div>
+	<div class="container about-container">
+		<!--about me-->
+		<section class="munchkin megan">
+			<div class="row">
+				<div class="col-12 my-3">
+					<h2>About me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="about-me">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/about me-->
+	</div>
 
-    <div class="container bookworm-container">
-      <!--I am not a bookworm-->
-      <section>
-        <div class="row">
-          <div class="col-12 my-3">
-            <h2>I am not a bookworm</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="bookworm">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="bookworm-video">
-              <p>VIDEO - I am NOT a bookworm</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/I am not a bookworm-->
-    </div>
+	<div class="container bookworm-container">
+		<!--I am not a bookworm-->
+		<section>
+			<div class="row">
+				<div class="col-12 my-3">
+					<h2>I am not a bookworm</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="bookworm">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="bookworm-video">
+						<p>VIDEO - I am NOT a bookworm</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/I am not a bookworm-->
+	</div>
 
-    <div class="container challenge-container">
-      <!--365 book challenge bp-->
-      <section>
-        <div class="row">
-          <div class="col-12 my-3">
-            <h2>365 book challenge</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="challenge">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="challenge-video">
-              <p>VIDEO - 365 books challenge</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--/365 book challenge bp-->
-    </div>
+	<div class="container challenge-container">
+		<!--365 book challenge bp-->
+		<section>
+			<div class="row">
+				<div class="col-12 my-3">
+					<h2>365 book challenge</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="challenge">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+							sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="challenge-video">
+						<p>VIDEO - 365 books challenge</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/365 book challenge bp-->
+	</div>
 
-    <footer></footer>
-    <div class="modal" tabindex="-1" role="dialog" id="bookclubModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Join Megan's Book Club!</h5>
-            <button
+	<footer></footer>
+	<div class="modal" tabindex="-1" role="dialog" id="bookclubModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Join Megan's Book Club!</h5>
+					<button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -204,52 +199,58 @@
             >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input
                   type="email"
                   class="form-control"
-                  id="exampleInputEmail1"
+                  id="email"
                   aria-describedby="emailHelp"
                 />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input
+							<small id="emailHelp" class="form-text text-muted"
+                  >e.g example@gmail.com</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input
                   type="password"
                   class="form-control"
-                  id="exampleInputPassword1"
+                  id="password"
                 />
+                <small id="passwordHelp" class="form-text text-muted"
+                  >Password must be 8-16 characters and include both numbers and letters.</small>
               </div>
-              <button type="submit" class="btn btn-primary">
+							<div class="form-group">
+								<label for="favourite-book">Favourite Book</label>
+								<input
+                  type="favourite-book"
+                  class="form-control"
+                  id="favourite-book"
+                />
+                 <small id="favouriteHelp" class="form-text text-muted"
+                  >e.g Matilda - Rold Dahl</small>
+              </div>
+								<button type="submit" class="btn btn--cta btn--orange ">
                 Get Reading!
               </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+</body>
+
 </html>
