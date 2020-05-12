@@ -1,11 +1,106 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------Navbar*/
+
+
+/*-----------------------------------------------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    font-family: "Muli",sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bookclub-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.smb-quote {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+/*-----------------------------------------------------------------------------------Continers*/
+
+/*css-tricks*/
 .books-container {
     height: 100vh;
-      background: url(../../assets/images/hero-image.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
+    background: url(../../assets/images/hero-image.jpg) no-repeat bottom center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    position: relative;
+
 }
+
+.opaque-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+.about-container {
+
+}
+
+.bookworm-container{
+
+}
+
+.challenge-container{
+
+}
+
+/*-----------------------------------------------------------------------------------Videos*/
+
+.bookworm-video {
+
+}
+
+.challenge-video {
+
+}
+
+/*-----------------------------------------------------------------------------------General*/
+
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 150px;
+}
+
+.btn--orange{
+    color: #fff;
+    background-color: #f86b4f;
+    border-color: #f86b4f;
+}
+
+.btn--orange:hover,
+.btn--orange:focus,
+.btn--orange:active,
+.btn--orange:active:focus {
+    color: #000;
+    background-color: #d34f35;
+    border-color: #d34f35
+} 
+
