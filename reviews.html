@@ -1,240 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--External library - Bootstrap css/fontawesome/cdnjs-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f07371f622.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <!--/External library - Bootstrap css/fontawesome/cdnjs-->
 
-	<!--External library - Bootstrap css/fontawesome/cdnjs-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		type="text/css" />
-	<script src="https://kit.fontawesome.com/f07371f622.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
-	<!--/External library - Bootstrap css/fontawesome/cdnjs-->
+    <!--Local library - style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <!--/Local library - style.css-->
 
-	<!--Local library - style.css-->
-	<link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-	<!--/Local library - style.css-->
+    <title>Munchkin Megan Presents</title>
+  </head>
 
-	<title>Munchkin Megan Presents</title>
-</head>
+  <body>
+    <div class="container-fluid">
+      <!--navbar-->
+      <nav class="navbar navbar-dark navbar-expand-sm">
+        <a class="navbar-brand" href="/">Munchkin Megan Presents</a>
 
-<body>
-	<div class="container-fluid ">
-		<!--navbar-->
-		<nav class="navbar navbar-dark navbar-expand-sm">
-			<a class="navbar-brand" href="/">Munchkin Megan Presents</a>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-			<button
-        class="navbar-toggler ml-auto"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#">Writing</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item mr-2 d-block d-sm-none">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2">Already a member?</p>
+          <a href="#" class="login-text">Login</a>
+        </div>
+      </nav>
+      <!--/navbar-->
+    </div>
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="/">Home</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="reviews.html">Reviews</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#">Writing</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#">Gallery</a>
-					</li>
-					<li class="nav-item mr-2">
-						<a class="nav-link" href="#">Contact</a>
-					</li>
-					<li class="nav-item mr-2 d-block d-sm-none">
-						<a class="nav-link" href="#">Login</a>
-					</li>
-				</ul>
-			</div>
-			<div class="d-none d-md-block">
-				<p class="navbar-text my-auto mr-2">Already a member?</p>
-				<a href="#" class="login-text">Login</a>
-			</div>
-		</nav>
-		<!--/navbar-->
-	</div>
-
-	<div class="container-fluid books-container">
-		<!--all about books-->
-		<div class="opaque-overlay">&nbsp</div>
-		<div class="row">
-			<div class="col-12">
-				<section class="jumbotron text-center">
-					<h1 class="jumbotron-header">All About Books</h1>
-					<p class="bookclub-text">
-						Join Megan's book club today and get the latest reviews!
-					</p>
-					<button
+    <div class="container-fluid books-container-reviews">
+      <!--all about books-->
+      <div class="opaque-overlay">&nbsp</div>
+      <div class="row">
+        <div class="col-12">
+          <section class="jumbotron text-center">
+            <h1 class="jumbotron-header">All About Books</h1>
+            <p class="bookclub-text">
+              Join Megan's book club today and get the latest reviews!
+            </p>
+            <button
               class="btn btn-lg btn--cta btn--orange"
               data-toggle="modal"
               data-target="#bookclubModal"
             >
               Get reading!
             </button>
-					<p class="smb-quote mt-3">
-						"So many books, so little time." <br />- Frank Zappa
+            <p class="smb-quote mt-3">
+              “The world was hers for the reading.” <br />- Betty Smith, A Tree
+              Grows in Brooklyn
             </p>
-				</section>
-			</div>
-		</div>
-		<!--/all about books-->
-	</div>
-    <div class="container reviews-container">
-		<!--book reviews-->
-		<section class="reviews">
-			<div class="row">
-				<div class="col-12 my-3">
-					<h2>Book Reviews</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="reviews">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/book reviews-->
-	</div>
-    <div class="container quotes-container">
-		<!--quotes-->
-		<section class="quotes">
-			<div class="row">
-				<div class="col-12 my-3">
-					<h2>Quotes</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="quotes">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/quotes-->
-	</div>
-    <div class="container interviews-container">
-		<!--interviews-->
-		<section class="interviews">
-			<div class="row">
-				<div class="col-12 my-3">
-					<h2>Interviews</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="quotes">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-							in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--/interviews-->
-	</div>
+          </section>
+        </div>
+      </div>
+      <!--/all about books-->
+    </div>
+    <div class="container-fluid reviews-container">
+      <!--book reviews-->
+      <section class="reviews">
+        <div class="row">
+          <div class="col-12 header">
+            <h2 class="reviews-header">Book Reviews</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-md-4 col-lg-4">
+            <div class="review">
+              <h3 class="scavengers">Scavengers</h3>
+              <p>by Darren Simpson</p>
+              <p class="blurb">
+                Landfill has lived his whole life as a scavenger, running with
+                wooflers, swimming with turtles and feasting on fresh gull. Old
+                Babagoo has always looked after him, on one condition – follow
+                his rules. Never come looking Outside. Never rise above the
+                wall. But despite the dangers, Landfill longs to see Outside.
+                And some rules are made to be broken.
+              </p>
+              <p>
+                <a class="btn btn-sm btn-light" href="">Read Review</a>
+                The book is about a boy called Landfill who's lived his whole
+                life as a scavenger. He was found as a baby and raised by an old
+                man, Babagoo. The story follows Landfill as he makes a friend
+                with an 'outsider'. Landfill is very unsure of this friendship
+                as he has never experienced anything like it. Wow! What a
+                massive emotional rollercoaster ride of a book. I think I pretty
+                much cried for the last 2 chapters of the book. I think the last
+                4 chapters changed everything for me. There are so many twists
+                and turns, and each one is brilliant. This is ridiculously well
+                written book and I loved reading every minute of it. I found
+                myself frustrated, sad, angry, happy and sometimes all within a
+                short space of time. I think the character I most relate to is
+                Dawn because she constantly wants to help Landfill, she's very
+                caring and adventurous. It completely peaked my curiosity and I
+                couldn't put it down. I'd reread it in a heart beat but I just
+                need a minute to process everything before I dive back in! That
+                ending, was beautiful and sad. The blurb does not do this book
+                justice
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="reviews">
+              <h3 class="jinxed">Jinxed</h3>
+              <p>by Amy McCulloch</p>
+              <p class="blurb">
+                Lacey Chu has big dreams of working for the company behind the
+                'baku' - a customizable smart pet that functions as a phone but
+                makes the perfect companion for its user. The only problem is,
+                she's just been rejected from Profectus Academy - the elite
+                academy for cutting-edge tech. Then Lacey meets Jinx... Jinx is
+                an incredibly advanced cat baku who opens up a world that Lacey
+                never new existed, including entry into the hallowed halls of
+                Profectus. But what is Jinx, really? His abilities far surpass
+                anything written into his coded. He seems to be more than just a
+                robotic pet. He seems ... real.
+              </p>
+              <p>
+                <a class="btn btn-sm btn-light" href="">Read Review</a> Well, I
+                absolutely loved and I mean LOVED, this book! For starters I
+                would like to say how gripping this book was, I thought the idea
+                of the Bakus was excellent and I genuinely want one! I felt very
+                much for Lacey when times were tough, I thought the
+                characterisation and development of characters was executed
+                brilliantly! Amy did a superb job writing this book, I couldn't
+                put it down and whenever I was reading this book I found it
+                incredibly immersive, like I was actually there. A mixture of
+                sci fi and mystery, this book was a thrilling read from start to
+                finish and I look forward whole heartedly to the next one!
+              </p>
+            </div>
+          </div>
+          <div class="col-12 d-md-none d-lg-block col-lg-4">
+            <div class="reviews">
+              <h3 class="itkoc">In the Key of Code</h3>
+              <p>by Aimee Lucido</p>
+              <p class="blurb">
+                When twelve-year-old Emmy's musical family moves to California
+                so her dad can take a job with the San Francisco Symphony
+                Orchestra, Emmy has never felt more out of tune. But when she
+                ends up in a school computer science club, she finds that she
+                can understand code through a language she is familiar with:
+                music. Slowly, Emmy makes friends with Abigail and the two girls
+                start to discover their voices through the programming language
+                of Java. Extraordinarily crafted, the novel begins to
+                incorporate Java's syntax and concepts as Emmy, and ultimately
+                the reader, learns to think in code. By the end, Emmy doesn't
+                feel like a wrong note, but like a musician in the world's most
+                beautiful symphony.
+              </p>
+              <p>
+                <a class="btn btn-sm btn-light" href="">Read Review</a>
+                I loved this book. It was just amazing. The book was absolutely
+                superb. I adored the layout, it was like reading music or
+                poetry. It felt like there was a symphony in my head and i've
+                never read anything that has done that before. The story telling
+                and the character description was sublime. It is one of the BEST
+                books that i have read in a long time. I wanted to read the book
+                because i code, i enjoy coding and find it fun so i liked that
+                element to the story. BUT i got so much more than i bargained
+                for because like i said, it's like you're in the middle of
+                symphony or an opera. I feel like i'm selling the story short
+                because i enjoyed it so much it's actually hard to put into
+                words. I loved it so much i've been telling my Mum to read it to
+                so we can talk about it, she says it reminds her a bit of
+                Benjamin Zephaniah in the way that it is lyrical, it has a beat
+                all of it's own. To sum up, great story and characterisation-
+                please write another book! Superb and unique layout and
+                structure. I LOVED IT!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/book reviews-->
+    </div>
+    <div class="container-fluid quotes-container">
+      <!--quotes-->
+      <section class="quotes">
+        <div class="row">
+          <div class="col-12 my-3 header">
+            <h2 class="quotes-header">Quotes</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="media">
+            <img src="../../assets/quote-images/g-toppsta.jpg" alt="Georgina-Toppsta" class="rounded-circle mr-3" height="100px" width="100px">
+            <div class="media-bod">
+              <blockquote class="blockquote">
+                <p>
+                  "Megan was one of our very first reviewers back when we first
+                  launched in 2016. My dream for Toppsta was to create a space
+                  where children could recommend books to each other, to
+                  highlight books that children really loved, not just those
+                  books which adults think they should be reading. It was clear,
+                  pretty early on, that not only was Megan a voracious book
+                  reader but that she wrote really helpful and engaging reviews,
+                  which appealed to other children. I can’t tell you how much
+                  this impressed me - given her age - and she has been an
+                  enthusiastic and committed reviewer ever since. I hope she
+                  knows that Toppsta would not be the same without her and every
+                  recommendation she writes helps other readers. I am truly
+                  excited to see where Megan’s reading and writing journey takes
+                  her."<br />
+                  - Georgina Atwell, Toppsta
+                </p>
+              </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <blockquote class="blockquote">
+              <p>
+                Megan is one of my favourite young bloggers, who has a passion
+                and energy for books that is clear when you meet her or read her
+                blogs. I’ve had the pleasure and honour of knowing Megan since
+                quite early on in my career and she’s always my first choice
+                blogger and reviewer when I know I’ve got a new book coming out!
+                <br />
+                - BB Taylor
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <!--/quotes-->
+    </div>
+    <div class="container-fluid interviews-container">
+      <!--interviews-->
+      <section class="interviews">
+        <div class="row">
+          <div class="col-12 my-3 header">
+            <h2 class="interviews-header">Interviews</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="quotes">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/interviews-->
+    </div>
 
-	
-
-	<!--Footer setup - UCD-mini project/code institute-->
-	<footer class="container-fluid">
-		<div id="footer-details" class="row">
-			<div class="col-sm-4">
-				<h5 class="footer-head">Blog</h5>
-				<p class="inline-block footer-text">
-					Why not check out my blog?
-					<a href="https://munchkinmegan.wordpress.com/" target="_blank" class="blog">
-						<i class="fa fa-blog"></i>
-						<span class="sr-only">Blog</span>
-					</a>
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h5 class="footer-head">Want something to read?</h5>
-				<p class="inline-block footer-text">
-					See all my Toppsta reviews here!
-					<a href="https://toppsta.com/reviewer/profile/munchkinmegan/4112#all-reviews" target="_blank" class="toppsta-reviews">
-						<i class="fa fa-book-open"></i>
-						<span class="sr-only">Download List</span>
-					</a>
-				</p>
-			</div>
-			<div class="col-sm-4">
-				<h5 class="footer-head">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a href="https://www.instagram.com/munchkinmeggie/?hl=en" target="_blank">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-							<span class="sr-only">Instagram</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://twitter.com/munchkinmeggie" target="_blank">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-							<span class="sr-only">Twitter</span>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="https://www.youtube.com/channel/UC89qTJyfvRBDVP14d1wDb9Q" target="_blank">
-							<i class="fa fa-youtube" aria-hidden="true"></i>
-							<span class="sr-only">YouTube</span>
-						</a>
-					</li>
-                    <li class="list-inline-item">
-						<a href="https://www.facebook.com/megangrace.nicholson.7" target="_blank">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-							<span class="sr-only">facebook</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
-	<!--/Footer setup - UCD-mini project/code institute-->
-	<div class="modal" tabindex="-1" role="dialog" id="bookclubModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Join Megan's Book Club!</h5>
-					<button
+    <!--Footer setup - UCD-mini project/code institute-->
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="footer-head">Blog</h5>
+          <p class="inline-block footer-text">
+            Why not check out my blog?
+            <a
+              href="https://munchkinmegan.wordpress.com/"
+              target="_blank"
+              class="blog"
+            >
+              <i class="fa fa-blog"></i>
+              <span class="sr-only">Blog</span>
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="footer-head">Want something to read?</h5>
+          <p class="inline-block footer-text">
+            See all my Toppsta reviews here!
+            <a
+              href="https://toppsta.com/reviewer/profile/munchkinmegan/4112#all-reviews"
+              target="_blank"
+              class="toppsta-reviews"
+            >
+              <i class="fa fa-book-open"></i>
+              <span class="sr-only">Download List</span>
+            </a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="footer-head">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a
+                href="https://www.instagram.com/munchkinmeggie/?hl=en"
+                target="_blank"
+              >
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/munchkinmeggie" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.youtube.com/channel/UC89qTJyfvRBDVP14d1wDb9Q"
+                target="_blank"
+              >
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <span class="sr-only">YouTube</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.facebook.com/megangrace.nicholson.7"
+                target="_blank"
+              >
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">facebook</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!--/Footer setup - UCD-mini project/code institute-->
+    <div class="modal" tabindex="-1" role="dialog" id="bookclubModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Join Megan's Book Club!</h5>
+            <button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -242,58 +385,63 @@
             >
               <span aria-hidden="true">&times;</span>
             </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="email">Email address</label>
-							<input
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
                   type="email"
                   class="form-control"
                   id="email"
                   aria-describedby="emailHelp"
                 />
-							<small id="emailHelp" class="form-text text-muted"
-                  >e.g example@gmail.com</small>
-						</div>
-						<div class="form-group">
-							<label for="password">Password</label>
-							<input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                />
-							<small id="passwordHelp" class="form-text text-muted"
-                  >Password must be 8-16 characters and include both numbers and letters.</small>
-						</div>
-						<div class="form-group">
-							<label for="favourite-book">Favourite Book</label>
-							<input
+                <small id="emailHelp" class="form-text text-muted"
+                  >e.g example@gmail.com</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" />
+                <small id="passwordHelp" class="form-text text-muted"
+                  >Password must be 8-16 characters and include both numbers and
+                  letters.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="favourite-book">Favourite Book</label>
+                <input
                   type="favourite-book"
                   class="form-control"
                   id="favourite-book"
                 />
-							<small id="favouriteHelp" class="form-text text-muted"
-                  >e.g Matilda - Rold Dahl</small>
-						</div>
-						<button type="submit" class="btn btn--cta btn--orange ">
+                <small id="favouriteHelp" class="form-text text-muted"
+                  >e.g Matilda - Rold Dahl</small
+                >
+              </div>
+              <button type="submit" class="btn btn--cta btn--orange">
                 Sign me up!
               </button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

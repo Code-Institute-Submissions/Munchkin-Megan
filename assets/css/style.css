@@ -47,9 +47,6 @@ body {
     color: #fff;
 }
 
-
-
-
 /*-----------------------------------------------------------------------------------Jumbotron*/
 
 .jumbotron {
@@ -83,7 +80,7 @@ body {
 }
 
 /*css-tricks*/
-.books-container {
+.books-container-home {
     height: 100vh;
     background: url(../../assets/images/hero-image.jpg) no-repeat bottom center; 
     -webkit-background-size: cover;
@@ -94,7 +91,19 @@ body {
     align-items: top;
     justify-content: center;
     position: relative;
+}
 
+.books-container-reviews {
+    height: 100vh;
+    background: url(../../assets/images/hero-image-002.jfif) no-repeat bottom center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    position: relative;
 }
 
 .opaque-overlay{
@@ -119,8 +128,7 @@ body {
 
 }
 
-.reviews {
-
+.reviews-container {
 }
 
 .quotes {
@@ -140,6 +148,32 @@ body {
     margin-top: 15px;
 }
 
+.about-imgFang {
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    transform: skewY(-5deg);
+}
+
+.about-imgWaterstones {
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    transform: skewY(5deg);
+}
+
+.about-imgStarfell {
+    height: auto;
+    width: 100%;
+    max-width: 720px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
 
 /*-----------------------------------------------------------------------------------Videos*/
 
@@ -149,6 +183,8 @@ body {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 .bookworm-video iframe {
   position: absolute;
@@ -181,28 +217,12 @@ body {
     margin-bottom: 0px;
 }
 
-.about-text{
-    letter-spacing: .5px;
-    line-height: 1.3;
-    text-align: justify;
-    margin-top: 15px;
-    padding-left: 15;
-    padding-right: 15;
-
-}
-
 .bookworm-header {
     font-family: "Muli", sans-serif;
     color: #fff;
     text-align: center;
     margin-top: 18px;
     margin-bottom: 0px;
-}
-
-.bookworm-text{
-    letter-spacing: .5px;
-    line-height: 1.3;
-    text-align: justify;
 }
 
 .challenge-header {
@@ -213,13 +233,73 @@ body {
     margin-bottom: 0px;
 }
 
-.challenge-text{
+.reviews-header {
+    font-family: "Muli", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px; 
+}
+
+.quotes-header {
+    font-family: "Muli", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px; 
+}
+
+.interviews-header {
+    font-family: "Muli", sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px; 
+}
+
+/*-----------------------------------------------------------------------------------Paragraphs*/
+
+.about-text{
     letter-spacing: .5px;
     line-height: 1.3;
     text-align: justify;
+    margin-top: 25px;
+    padding-left: 15;
+    padding-right: 15;
 }
 
+.bookworm-text{
+    letter-spacing: .5px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 25px;
+    padding-left: 15;
+    padding-right: 15;
+}
 
+.bookworm-text {
+    letter-spacing: .5px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 10px;
+    padding-left: 15;
+    padding-right: 15;
+}
+
+.challenge-text {
+    letter-spacing: .5px;
+    line-height: 1.3;
+    text-align: justify;
+    margin-top: 10px;
+    padding-left: 15;
+    padding-right: 15;
+}
+
+/*-----------------------------------------------------------------------------------Quotes*/
+
+.blockquote {
+
+}
 
 /*-----------------------------------------------------------------------------------Buttons*/
 
