@@ -181,18 +181,19 @@ body {
     margin-top: 50px;
 }
 
-.scavengers-media {
+.bookReview-media {
     margin-top: 30px;
 }
 
-.jinxed-media {
-    margin-top: 30px;
+.bookModal-media {
+    margin-top:15px;
 }
 
-.itkoc-media {
-    margin-top: 30px;
-}
 
+
+.review-img {
+    margin-left:15px;
+}
 
 /*-----------------------------------------------------------------------------------Videos*/
 
@@ -352,7 +353,8 @@ body {
     line-height: 1.3;
     text-align: justify;
     margin-left: 10px;
-    margin-right: 10px;     
+    margin-right: 10px; 
+    margin-top: 25px;    
 }
 
 .blurb {
@@ -405,6 +407,10 @@ body {
     border-color: #d34f35;
 } 
 
+.close {
+    margin-right: 15px;
+}
+
 /*-----------------------------------------------------------------------------------Modal*/
 
 /*Modal setup - Whiskey drop project/code institute*/
@@ -425,6 +431,12 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: .75em;
+}
+
+/*-----------------------------------------------------------------------------------General*/
+
+.checked {
+    color: #f5f50c;
 }
 
 /*-----------------------------------------------------------------------------------Footer*/
