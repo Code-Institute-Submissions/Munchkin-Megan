@@ -128,8 +128,8 @@ body {
 
 }
 
-.reviews-container {
-
+.comingSoon-container {
+    margin-bottom: 25px;
 }
 
 .media-body {
@@ -351,16 +351,21 @@ body {
     margin-top: 15px;
 }
 
-.vtf-text{
-    display: inline-block;
-}
-
 /*-----------------------------------------------------------------------------------Quotes*/
 
 .blockquote {
     font-size: 1.2em;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin: 15px 25px 30px;
+}
+
+.quotes-img {
+    margin-right: 15px;
+    text-align: center;
+}
+
+.vtf-quoteimg {
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 /*-----------------------------------------------------------------------------------Buttons*/
