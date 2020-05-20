@@ -121,6 +121,19 @@ body {
     position: relative;
 }
 
+.books-container-contact {
+    height: 75vh;
+    background: url(../../assets/images/hero-images/contact-hero.jpg) no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 /*Whiskey-drop - Code Institute*/
 .opaque-overlay{
     position: absolute;
@@ -337,7 +350,7 @@ body {
     margin-bottom: 0px; 
 }
 
-.interviews-header {
+.contact-header {
     font-family: "Muli", sans-serif;
     color: #fff;
     text-align: center;
@@ -440,7 +453,7 @@ body {
     font-weight: bold;
     border-radius: 23px;
     width: 120px;
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom: 30px;  
 }
 
@@ -486,6 +499,12 @@ body {
     margin-right: 15px;
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
 /*-----------------------------------------------------------------------------------Modal*/
 
 /*Modal setup - Whiskey drop project/code institute*/
@@ -506,6 +525,27 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: .75em;
+}
+
+/*-----------------------------------------------------------------------------------Contact Form*/
+
+/*Contact Form - UCD-mini project/code institute*/
+
+.contact-question {
+    font-family: "Muli", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-answer {
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10;
+    margin: 0 auto;
+    max-width: 70%;
+    
 }
 
 /*-----------------------------------------------------------------------------------General*/
