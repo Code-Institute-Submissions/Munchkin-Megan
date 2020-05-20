@@ -107,6 +107,20 @@ body {
     position: relative;
 }
 
+/*css-tricks*/
+.books-container-gallery {
+    height: 75vh;
+    background: url(../../assets/images/hero-images/gallery-hero.jpg) no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 /*Whiskey-drop - Code Institute*/
 .opaque-overlay{
     position: absolute;
@@ -186,6 +200,40 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#gallery {
+    column-count: 2;
+    line-height: 0;
+    column-gap: 3px;
+}
+
+#gallery img {
+    width: 100%;
+    margin-top: 3px;
+}
+
+/*-----------------------------------------------------------------------------------Media Queries*/
+
+@media screen and (min-width: 768px){
+#gallery {
+    column-count: 3;
+}
+}
+
+@media screen and (min-width: 992px){
+
+#gallery {
+    column-count: 4;
+}
+}
+
+@media screen and (min-width: 1200px){
+
+#gallery {
+    column-count: 5;
+}
+}
+
 
 /*-----------------------------------------------------------------------------------Videos*/
 
