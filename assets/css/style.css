@@ -27,7 +27,6 @@ body {
     font-family: "Muli", sans-serif;
     font-weight: 500;
     font-size: 1.3rem
-
 }
 
 .navbar .navbar-nav a {
@@ -74,7 +73,9 @@ body {
     font-size: 18px;
     color: #fff;
 }
+
 /*-----------------------------------------------------------------------------------Continers*/
+
 .container {
     width: 100%;
 }
@@ -163,8 +164,6 @@ body {
     text-align: center;
 }
 
-
-
 /*-----------------------------------------------------------------------------------Images*/
 
 #outdoors {
@@ -174,6 +173,7 @@ body {
 #bedtime {
     text-align: center;
 }
+
 .about-img {
     height: auto;
     width: 100%;
@@ -190,10 +190,6 @@ body {
     margin-bottom: 25px;
 }
 
-.rounded-circle {
-    margin-top: 50px;
-}
-
 .bookReview-media {
     margin-top: 30px;
     margin-left: 15px;
@@ -202,7 +198,6 @@ body {
 .bookModal-media {
     margin-top:15px;
 }
-
 
 .review-img {
     margin-left:15px;
@@ -231,12 +226,21 @@ body {
 #gallery {
     column-count: 3;
 }
+
+.toppsta-img {
+    margin-top: 45px;
+}
+
 }
 
 @media screen and (min-width: 992px){
 
 #gallery {
     column-count: 4;
+}
+
+.toppsta-img {
+    margin-top: 20px;
 }
 }
 
@@ -245,11 +249,14 @@ body {
 #gallery {
     column-count: 5;
 }
+
+.blockquote {
+    font-size: 1.2em;
+    margin: 15px 25px 50px;
+}
 }
 
-
 /*-----------------------------------------------------------------------------------Videos*/
-
 
 /*Fluid width video - css tricks*/
 .bookworm-video {
@@ -267,7 +274,6 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .challenge-video {
@@ -284,11 +290,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 /*-----------------------------------------------------------------------------------Headers*/
-
 
 .header {
     padding-left: 0;
@@ -368,7 +372,6 @@ body {
     margin-bottom: 25px;
 }
 
-
 .bookworm-text{
     letter-spacing: .5px;
     line-height: 1.3;
@@ -410,6 +413,7 @@ body {
 
 .blurb {
     margin-top: 15px;
+    text-align: justify;
 }
 
 /*-----------------------------------------------------------------------------------Quotes*/
@@ -481,9 +485,9 @@ body {
 .btn--orange:focus,
 .btn--orange:active,
 .btn--orange:active:focus {
-    color: #000;
-    background-color: #d34f35;
-    border-color: #d34f35;
+    color: #fff;
+    background-color: #cc3a1d;
+    border-color: ##cc3a1d;
 } 
 
 .btn--blue:hover,
@@ -503,7 +507,6 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-
 
 /*-----------------------------------------------------------------------------------Modal*/
 
@@ -544,8 +547,11 @@ button[type="submit"] {
 .center-form {
     padding-top: 10;
     margin: 0 auto;
-    max-width: 70%;
-    
+    max-width: 70%;    
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 /*-----------------------------------------------------------------------------------General*/
@@ -607,7 +613,6 @@ footer {
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-
 }
 
 .toppsta-reviews i:hover {
