@@ -6,8 +6,6 @@ body {
 
 /*-----------------------------------------------------------------------------------Navbar*/
 
-/*Navbar setup - Whiskey drop project/code institute*/
-
 .navbar {
     position: absolute;
     top: 0;
@@ -80,7 +78,6 @@ body {
     width: 100%;
 }
 
-/*css-tricks*/
 .books-container-home {
     height: 75vh;
     background: url(../../assets/images/hero-images/hero-image.jpg) no-repeat bottom center; 
@@ -94,10 +91,9 @@ body {
     position: relative;
 }
 
-/*css-tricks*/
 .books-container-reviews {
     height: 75vh;
-    background: url(../../assets/images/hero-images/hero-image-002.jfif) no-repeat bottom center; 
+    background: url(../../assets/images/hero-images/reviews-hero.jpg) no-repeat bottom center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,10 +104,9 @@ body {
     position: relative;
 }
 
-/*css-tricks*/
 .books-container-gallery {
     height: 75vh;
-    background: url(../../assets/images/hero-images/gallery-hero.jpg) no-repeat top center; 
+    background: url(../../assets/images/hero-images/gallery-hero.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,7 +119,7 @@ body {
 
 .books-container-contact {
     height: 75vh;
-    background: url(../../assets/images/hero-images/contact-hero.jpg) no-repeat top center; 
+    background: url(../../assets/images/hero-images/contact-hero.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -135,25 +130,11 @@ body {
     position: relative;
 }
 
-/*Whiskey-drop - Code Institute*/
 .opaque-overlay{
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
- 
-.about-container {
-   
-}  
-
-.bookworm-container{
-    
-}
-
-.challenge-container{
-
 }
 
 .comingSoon-container {
@@ -264,7 +245,6 @@ body {
 
 /*-----------------------------------------------------------------------------------Videos*/
 
-/*Fluid width video - css tricks*/
 .bookworm-video {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -453,12 +433,6 @@ body {
     width: 75px;
 }
 
-.btn--cta-buy{
-    font-weight: bold;
-    border-radius: 23px;
-    width: 100px;
-}
-
 .btn--review {
     font-weight: bold;
     border-radius: 23px;
@@ -473,20 +447,6 @@ body {
     border-color: #f86b4f;
 }
 
-.btn--blue {
-    color: #fff;
-    background-color: #2075c4;
-    border-color: #2075c4;
-    text-decoration: none;
-    text-align: center;
-    float: right;
-}
-
-.btn--blue a {
-    color: #fff;
-    text-decoration: none;
-}
-
 .btn--orange:hover,
 .btn--orange:focus,
 .btn--orange:active,
@@ -494,15 +454,6 @@ body {
     color: #fff;
     background-color: #cc3a1d;
     border-color: #cc3a1d;
-} 
-
-.btn--blue:hover,
-.btn--blue:focus,
-.btn--blue:active,
-.btn--blue:active:focus {
-    color: #fff;
-    background-color: #124e86;
-    border-color: #124e86;
 } 
 
 .close {
@@ -515,8 +466,6 @@ button[type="submit"] {
 }
 
 /*-----------------------------------------------------------------------------------Modal*/
-
-/*Modal setup - Whiskey drop project/code institute*/
 
 .modal-title{
     font-family: "Muli", sans-serif;
@@ -537,8 +486,6 @@ button[type="submit"] {
 }
 
 /*-----------------------------------------------------------------------------------Contact Form*/
-
-/*Contact Form - UCD-mini project/code institute*/
 
 .contact-question {
     font-family: "Muli", sans-serif;
@@ -567,8 +514,6 @@ button[type="submit"] {
 }
 
 /*-----------------------------------------------------------------------------------Footer*/
-
-/*Footer setup - UCD-mini project/code institute*/
 
 footer {
     background-color: #f86b4f;
