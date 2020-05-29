@@ -7,6 +7,21 @@ This site is based on my daughter’s own experience with reading and her journe
 The site offers honest book reviews and gives the user potential to explore other book related websites. 
 Moving forwards, the project will have the ability (by signing up to Megan’s book club) to include the latest reviews and interviews with authors, illustrators, and publishers, including a newsletter offering giveaways and prizes.
 
+## **Design/Planning**
+I felt it important to make sure that the design was clean and simple, just like a good book, the content is the star. 
+It must be easy to navigate across all formats, be inviting and encourage the user to return to the site for information on new releases/reviews. 
+It also needed to reflect my daughter’s personality and show how books and reading have influenced her and have that enthusiasm rub off on the user.
+
+Since its inception, this project has changed in appearance from the original design wireframes (fig.1 below).
+
+![original wireframes](https://i.imgur.com/mChICh5.jpg)
+
+Changes were made and a new, more simplistic, scrolling design was created to improve the user experience. 
+New wireframes acted as a base for each page so the content could be altered to suit the layout.
+It allowed me to be creatively responsive as each page was built, and structure the content accordingly. (fig.2 below)
+
+![new wireframes](https://i.imgur.com/IMfaEtW.jpg)
+
 
 ## **UX**
 The purpose of the website is to present the information about books and reading:
@@ -14,10 +29,6 @@ The purpose of the website is to present the information about books and reading
 - What to read
 - Diversity of books
 - Where books can take you
-
-I felt it important to make sure that the design was clean and simple, just like a good book, the content is the star. 
-It must be easy to navigate across all formats, be inviting and encourage the user to return to the site for information on new releases/reviews. 
-It also needed to reflect my daughter’s personality and show how books and reading have influenced her and have that enthusiasm rub off on the user.
 
 
 ## **User Stories**
@@ -28,16 +39,7 @@ It also needed to reflect my daughter’s personality and show how books and rea
 - Can I buy the book?
 
 
-## **Features**
-Since its inception, this project has changed in appearance from the original design wireframes (fig.1 below).
-
-![original wireframes](https://i.imgur.com/mChICh5.jpg)
-
-Changes were made and a new, more simplistic, scrolling design was created to improve the user experience. 
-New wireframes acted as a base for each page so the content could be altered to suit the layout.
-It allowed me to be creatively responsive as each page was built, and structure the content accordingly. (fig.2 below)
-
-![new wireframes](https://i.imgur.com/IMfaEtW.jpg)
+## **Current Features**
 
 ### **Brand**			
 - ‘Munchkin Megan Presents’ informs the user that they have arrived at the site.
