@@ -31,13 +31,13 @@ It also needed to reflect my daughter’s personality and show how books and rea
 ## **Features**
 Since its inception, this project has changed in appearance from the original design wireframes (fig.1 below).
 
-![original wireframes](/..//../wireframes/original-wireframes.jpg)
+![original wireframes](https://i.imgur.com/mChICh5.jpg)
 
 Changes were made and a new, more simplistic, scrolling design was created to improve the user experience. 
 New wireframes acted as a base for each page so the content could be altered to suit the layout.
 It allowed me to be creatively responsive as each page was built, and structure the content accordingly. (fig.2 below)
 
-![new wireframes](/..//../wireframes/new-wireframes.jpg)
+![new wireframes](https://i.imgur.com/IMfaEtW.jpg)
 
 ### **Brand**			
 - ‘Munchkin Megan Presents’ informs the user that they have arrived at the site.
@@ -122,7 +122,7 @@ I did not test this project on Opera due to issues installing the browser.
 Only iPhone5/SE had difficulty displying full screen width without overflow. This was however, limited to the navbar overlapping the jumbotron and obscuring the callout, and resolved by altering the displayed text.
 The site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.  
 
-![testing spreadsheet](/..//testing/testing-results.jpg)
+![testing spreadsheet](https://i.imgur.com/Pe4tCP3.jpg)
 
 ### **Navigation**
 - Links to other .html files respond as expected with minimal loading on transfer.
@@ -209,7 +209,7 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
 - Thank you to [Georgina Atwell](https://toppsta.com/) and [BB Taylor](https://www.bbtaylor-books.com/) for taking the time to provide me with content for this project.
     They have both been incredibly supportive of Megan through the years and this has not gone un-noticed.
 - Thank you to my family for their constant support and motivation during this project. The purpose of this course is to provide a better future for them and I will not let them down.
-- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey, providing support, guidance and unliited tangents to all things 80’s. 
+- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey, providing support, guidance and unlimited tangents to all things 80’s. 
     You have been the Doc Brown to my Marty McFly. 
 - Thank you to my fellow January coders who have provided support and acted as a sounding board for this project, we are all in this together.
     - [Betty Murphy](https://www.linkedin.com/in/betty-murphy-53709119b/)
