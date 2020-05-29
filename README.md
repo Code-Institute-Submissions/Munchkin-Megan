@@ -105,16 +105,19 @@ As the project came together, minor changes were made to the design to aid with 
 - [Web development tools](https://developers.google.com/web/tools/chrome-devtools) (often called dev-tools) allow web developers to test and debug their code. They are different from website builders and integrated development environments (IDEs) in that they do not assist in the direct creation of a webpage, rather they are tools used for testing the user interface of a website or web application. - Wikipedia
 
 ### **W3C Validation**
-- Mark-up Validation Service is a validator by the World Wide Web Consortium (W3C) that allows Internet users to check HTML and XHTML documents for well-formed mark-up. Mark-up validation is an important step towards ensuring the technical quality of web pages. – Wikipedia
-- For more information on w3c validation visit: https://validator.w3.org/
+- [Mark-up Validation Service](https://validator.w3.org/) is a validator by the World Wide Web Consortium (W3C) that allows Internet users to check HTML and XHTML documents for well-formed mark-up. Mark-up validation is an important step towards ensuring the technical quality of web pages. – Wikipedia
 
 
 ## **Testing**
-*Please see the [testing spreadsheet](../../testing/testing-results.xlsx) for in depth results.*
 
-### **Desktop/iPad/Mobile**
-- My project was tested across multiple browsers. Chrome, Firefox and Safari all responded well, Edge and IE did not perform as expected and the site was not tested on Opera.
-- My project was tested on Android and Apple devices.  Both responded well with all links and icons responding as expected.
+Each file was tested on multipe viewing platforms.  Chrome developer tools was used extensively and I took advantage of the ability to swap devices to see how each layout would look on different platforms.  
+All links responded and loaded within an accepatble time frame apart from IE where loading times were slower than expected and would result in a negative experience for the user. 
+Taking advantage of cross platform capability within my household and family members, I was able to test my project on a variety of Android, Apple and Windows applictions with repeated success.  
+I did not test this project on Opera due to issues installing the browser.
+Only iPhone5/SE had difficulty displying full screen width without overflow. This was however, limited to the navbar overlapping the jumbotron and obscuring the callout, and resolved by altering the displayed text.
+The site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.  
+
+*Please see the [testing spreadsheet](/../../testing/testing-results.jpg) in conjunction with the following results.*
 
 ### **Modals**
 - Jumbotron Modals open when requested.  At present, the information requested is not collected and clicking the sign-up(submit) button returns the user to the index.html/reviews.html respectively.
