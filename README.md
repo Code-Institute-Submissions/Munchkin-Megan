@@ -40,6 +40,7 @@ As the project came together, minor changes were made to the design to aid with 
 
 ### **Navigation Bar**	
 - Allows the user to navigate through the content of the site: Home, Reviews, Gallery, Contact.
+- Menu collapses on smaller devices for a better user experience.
 
 ### **Book Club Modal**
 - Encourages the user to sign up to Megan’s book club
@@ -107,6 +108,8 @@ As the project came together, minor changes were made to the design to aid with 
 ### **W3C Validation**
 - [Mark-up Validation Service](https://validator.w3.org/) is a validator by the World Wide Web Consortium (W3C) that allows Internet users to check HTML and XHTML documents for well-formed mark-up. Mark-up validation is an important step towards ensuring the technical quality of web pages. – Wikipedia
 
+### **GIMP**
+- [GIMP](https://www.gimp.org/) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks. - Wikipedia
 
 ## **Testing**
 
@@ -117,7 +120,11 @@ I did not test this project on Opera due to issues installing the browser.
 Only iPhone5/SE had difficulty displying full screen width without overflow. This was however, limited to the navbar overlapping the jumbotron and obscuring the callout, and resolved by altering the displayed text.
 The site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.  
 
-*Please see the [testing spreadsheet](/../../testing/testing-results.jpg) in conjunction with the following results.*
+![testing spreadsheet](/../testing/testing-results.jpg)
+
+### **Navigation**
+- Links to other .html files respond as expected with minimal loading on transfer.
+- Responsive menu works as expected on smaller devices.
 
 ### **Modals**
 - Jumbotron Modals open when requested.  At present, the information requested is not collected and clicking the sign-up(submit) button returns the user to the index.html/reviews.html respectively.
@@ -126,7 +133,8 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
 ### **Contact**
 - The contact form collects the user’s information.  At present, the form is not connected to any external server and the information requested is not collected.  Completing the form and submitting returns the user to the top of the contact page. 
 
-### **Video/Images**
+### **Content/Video/Images**
+- Written content responds to screen width and is well proportioned.
 - Videos display responsively, play when requested and audio is functional.
 - On mobile and tablet devices, the videos respond to the gyroscope function of the device.
 - All clickable images respond as expected and links to external sources open in a new tab for a good user experience.
