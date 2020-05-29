@@ -29,11 +29,15 @@ It also needed to reflect my daughter’s personality and show how books and rea
 
 
 ## **Features**
+Since its inception, this project has changed in appearance from the original design wireframes (fig.1 below).
 
-### **Existing Features**
-*Note: This project has changed in appearance since the conception of the [original wireframes]().  
-Changes were made and [new wireframes]() were created to streamline the project and reduce the risk of over populating the site. 
-As the project came together, minor changes were made to the design to aid with the aesthetics of the layout.*
+![original wireframes](/..//../wireframes/original-wireframes.jpg)
+
+Changes were made and a new, more simplistic, scrolling design was created to improve the user experience. 
+New wireframes acted as a base for each page so the content could be altered to suit the layout.
+It allowed me to be creatively responsive as each page was built, and structure the content accordingly. (fig.2 below)
+
+![new wireframes](/..//../wireframes/new-wireframes.jpg)
 
 ### **Brand**			
 - ‘Munchkin Megan Presents’ informs the user that they have arrived at the site.
@@ -68,7 +72,7 @@ As the project came together, minor changes were made to the design to aid with 
 - The social feeds provide information on Megan’s current activities.
 
 
-## **Features Left to Implement**
+## **Features to Implement**
 
 ### **Megan’s Book Club**
 - This feature will allow users to sign up to a newsletter offering monthly updates and book giveaways. Content will include inside information, such as upcoming titles and releases. Insider interviews with authors, illustrators, and publishers, as well as details on upcoming book events.
@@ -88,10 +92,8 @@ As the project came together, minor changes were made to the design to aid with 
 ### **CSS (Cascading Style Sheets)**
 - [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/default.asp) is a style sheet language used for describing the presentation of a document written in a mark-up language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. - Wikipedia
 
-
 ### **Bootstrap**
 - [Bootstrap](https://getbootstrap.com/) is a free and open source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. - Wikipedia
-
 
 ### **GitHub**
 - [GitHub](https://github.com/), is a United States-based global company that provides hosting for software development version control using Git. - Wikipedia
@@ -111,8 +113,8 @@ As the project came together, minor changes were made to the design to aid with 
 ### **GIMP**
 - [GIMP](https://www.gimp.org/) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks. - Wikipedia
 
-## **Testing**
 
+## **Testing**
 Each file was tested on multipe viewing platforms.  Chrome developer tools was used extensively and I took advantage of the ability to swap devices to see how each layout would look on different platforms.  
 All links responded and loaded within an accepatble time frame apart from IE where loading times were slower than expected and would result in a negative experience for the user. 
 Taking advantage of cross platform capability within my household and family members, I was able to test my project on a variety of Android, Apple and Windows applictions with repeated success.  
@@ -120,7 +122,7 @@ I did not test this project on Opera due to issues installing the browser.
 Only iPhone5/SE had difficulty displying full screen width without overflow. This was however, limited to the navbar overlapping the jumbotron and obscuring the callout, and resolved by altering the displayed text.
 The site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.  
 
-![testing spreadsheet](/../testing/testing-results.jpg)
+![testing spreadsheet](/..//testing/testing-results.jpg)
 
 ### **Navigation**
 - Links to other .html files respond as expected with minimal loading on transfer.
@@ -164,9 +166,8 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
 5. You can also select to clone or download my repository.
     - Follow the link for more information on how to do this: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
-## **Credits**
 
-### **Content**
+## **Content Credits**
 - HTML
 - CSS
 - Bootstrap (including JS functions to activate modals) - https://getbootstrap.com/docs/4.5/getting-started/introduction/
@@ -184,30 +185,32 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
 - Contact - Content inspired by ‘Resume’ (Rosie Odenkirk) Mini Project - Code Institute.
 - Footer - Content inspired by ‘Resume’ (Rosie Odenkirk) Mini Project - Code Institute.
 
-### **Media**
+
+## **Media Credits**
 - All images of Megan were taken by myself or my wife, Donna Nicholson, and therefore we give consent for them to be used in this project.
 - I am NOT a bookworm video was recorded at Central library Coventry by myself and therefore give consent to use it in this project.
 - 365 Book Challenge video is property of CBBC (https://www.bbc.co.uk/cbbc). This copy was given to us by then producer Ben Franklin. 
-- Hero-image (Wrike.com) - https://www.wrike.com/blog/15-books-every-manager-should-read/
-- Reviews-hero-image (The New Arab) - https://english.alaraby.co.uk/english/fullimage/a029b20e-5681-493d-8298-712a4c2c2919/6b25dc50-e55f-4469-893c-c6673775b50d
-- Gallery-hero-image (Guy Diehl; Pinterest) - https://www.pinterest.co.uk/pin/329185053990447384/
-- Contact-hero-image (Scott Kyle Graphic Design - https://scottakyle.wordpress.com/2009/02/04/vintage-postcards/
-- Quote-image (Supplied by Georgina Atwell; Toppsta) - https://toppsta.com/
-- Quote-image (Supplied by BB Taylor; BB Taylor Books) - https://www.bbtaylor-books.com/
-- Vigilante Tooth Fairy (Matthew James Publishing) - https://www.matthewjamespublishing.com/products/tiny-tree/the-vigilante-tooth-fairy
-- Scavengers (Waterstones) – https://www.waterstones.com/book/scavengers/darren-simpson/9781474956024
-- Jinxed (Waterstones) – https://www.waterstones.com/book/jinxed/amy-mcculloch/9781471169960
-- Gaslight (Waterstones) – https://www.waterstones.com/book/gaslight/eloise-williams/9781910080542
-- In The Key of Code (Waterstones) – https://www.waterstones.com/book/in-the-key-of-code/aimee-lucido/9781406389333
-- The Boy Who Flew (Waterstones) – https://www.waterstones.com/book/the-boy-who-flew/fleur-hitchcock/9781788004381
-- Happy Girl Lucky (Waterstones) - https://www.waterstones.com/book/happy-girl-lucky/holly-smale/9780008254148
+- Hero-image (Wrike.com) https://www.wrike.com/blog/15-books-every-manager-should-read/
+- Reviews-hero-image (The New Arab) https://english.alaraby.co.uk/english/fullimage/a029b20e-5681-493d-8298-712a4c2c2919/6b25dc50-e55f-4469-893c-c6673775b50d
+- Gallery-hero-image (Guy Diehl; Pinterest) https://www.pinterest.co.uk/pin/329185053990447384/
+- Contact-hero-image (Scott Kyle Graphic Design) https://scottakyle.wordpress.com/2009/02/04/vintage-postcards/
+- Quote-image (Supplied by Georgina Atwell; Toppsta) https://toppsta.com/
+- Quote-image (Supplied by BB Taylor; BB Taylor Books) https://www.bbtaylor-books.com/
+- Vigilante Tooth Fairy book cover (BB Taylor/Matthew James Publishing) https://www.matthewjamespublishing.com/products/tiny-tree/the-vigilante-tooth-fairy
+- Scavengers book cover (Waterstones) https://www.waterstones.com/book/scavengers/darren-simpson/9781474956024
+- Jinxed book cover (Waterstones) https://www.waterstones.com/book/jinxed/amy-mcculloch/9781471169960
+- Gaslight book cover (Waterstones) https://www.waterstones.com/book/gaslight/eloise-williams/9781910080542
+- In The Key of Code book cover (Waterstones) https://www.waterstones.com/book/in-the-key-of-code/aimee-lucido/9781406389333
+- The Boy Who Flew book cover (Waterstones) https://www.waterstones.com/book/the-boy-who-flew/fleur-hitchcock/9781788004381
+- Happy Girl Lucky book cover (Waterstones) https://www.waterstones.com/book/happy-girl-lucky/holly-smale/9780008254148
 
 
 ## **Acknowledgements**
 - Thank you to [Georgina Atwell](https://toppsta.com/) and [BB Taylor](https://www.bbtaylor-books.com/) for taking the time to provide me with content for this project.
     They have both been incredibly supportive of Megan through the years and this has not gone un-noticed.
-- Thank you to my family for their constant support and motivation during this project. The whole purpose of me doing this course is to provide a better future for them and I will not let them down.
-- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey and providing support and a reference to all things 80’s. He has been the Doc Brown to my Marty McFly since we first spoke in 2019.
+- Thank you to my family for their constant support and motivation during this project. The purpose of this course is to provide a better future for them and I will not let them down.
+- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey. He has provided support, guidance and a reference to all things 80’s. 
+    He has been the Doc Brown to my Marty McFly.
 - Thank you to my fellow January coders who have provided support and acted as a sounding board for this project, we are all in this together.
     - [Betty Murphy](https://www.linkedin.com/in/betty-murphy-53709119b/)
     - [Jamie Gibson](https://www.linkedin.com/in/jamie-gibson-1477bb172/)
