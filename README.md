@@ -209,8 +209,8 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
 - Thank you to [Georgina Atwell](https://toppsta.com/) and [BB Taylor](https://www.bbtaylor-books.com/) for taking the time to provide me with content for this project.
     They have both been incredibly supportive of Megan through the years and this has not gone un-noticed.
 - Thank you to my family for their constant support and motivation during this project. The purpose of this course is to provide a better future for them and I will not let them down.
-- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey. He has provided support, guidance and a reference to all things 80’s. 
-    He has been the Doc Brown to my Marty McFly.
+- Thank you to [Stuart Crang](https://www.linkedin.com/in/stuart-crang-50401897/) at the Learning People for starting me on this journey, providing support, guidance and unliited tangents to all things 80’s. 
+    You have been the Doc Brown to my Marty McFly. 
 - Thank you to my fellow January coders who have provided support and acted as a sounding board for this project, we are all in this together.
     - [Betty Murphy](https://www.linkedin.com/in/betty-murphy-53709119b/)
     - [Jamie Gibson](https://www.linkedin.com/in/jamie-gibson-1477bb172/)
