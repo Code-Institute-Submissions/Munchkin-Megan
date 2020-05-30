@@ -214,14 +214,13 @@ body {
     column-count: 3;
 }
 
+
 .toppsta-img {
     margin-top: 45px;
 }
-
 }
 
 @media screen and (min-width: 992px){
-
 #gallery {
     column-count: 4;
 }
@@ -229,10 +228,10 @@ body {
 .toppsta-img {
     margin-top: 20px;
 }
+
 }
 
 @media screen and (min-width: 1200px){
-
 #gallery {
     column-count: 5;
 }
@@ -500,7 +499,7 @@ button[type="submit"] {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;    
+    max-width: 85%;    
 }
 
 .form-control {

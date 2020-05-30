@@ -249,6 +249,12 @@ From feedback through family members and a small select group of willing testers
     - [Joseph Roberts](https://www.linkedin.com/in/joseph-roberts-4a2a53122/)
     - [Kevin Rogerson](https://www.linkedin.com/in/kevin-rogerson-84304066/)
     - [Lewis Hamilton](https://www.linkedin.com/in/lewis-hamilton-bb1b39a7/)
-- Thank you to my Mentor Precious Ljege for his guidance and support through this project.  He has provided solutions and ideas that have made a difference in this project.
+- Thank you to my Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/), for his guidance and support through this project.  He has provided solutions and ideas that have made a difference in this project.
+- Thank you to [Tom Garrett](https://www.linkedin.com/in/tom-garratt-303284168/), for his advice and support during my confidence crisis.
 
-
+- [Code Institute](https://codeinstitute.net/): In creating this project, I have re-used code from previous mini projects during my studies.
+In the first few days, I had a confidence crisis in my ability, that stopped me from getting the project off the ground.  
+I relied on previous mini projects to help build the bones of my site as I was unsure of where to start.
+Although this code is not my own, the site would not be the same without it.
+Allowing myself time to re-visit previous instructional videos gave me the ability to fully understand the code I was using
+and altering. I now feel more confident in my abilities, and feel that I can create godd, clean code of my own moving forwards.   
