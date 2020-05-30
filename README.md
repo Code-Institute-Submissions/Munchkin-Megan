@@ -1,153 +1,181 @@
 # **Munchkin Megan Presents**
 
-This is the first of three milestone projects I will undertake as Full Stack Developer with the Code Institute. 
-The aim of this project is to design and build a static web page, showcasing the skills I have learnt so far on the course, utilising HTML, CSS, and Bootstrap.
-The aim of my project is to encourage more children to read and to aid parents/teachers in choosing the most engaging and beneficial reading material for their children/class.  
-This site is based on my daughter’s own experience with reading and her journey through books, showing how incredible the literary world is.  
-The site offers honest book reviews and gives the user potential to explore other book related websites. 
-Moving forwards, the project will have the ability (by signing up to Megan’s book club) to include the latest reviews and interviews with authors, illustrators, and publishers, including a newsletter offering giveaways and prizes.
+[Munchkin Megan Presents](https://bicks79.github.io/Munchkin-Megan/) is the first of three milestone projects I will undertake as Full Stack Developer with the Code Institute. 
+The aim of this project is to design and build a static web page, showcasing the skills I have learnt, utilising HTML, CSS, and Bootstrap.
+The aim of my project is to encourage more children to read and to aid parents and teachers in choosing the most engaging and beneficial reading material for their children or class.  
+This site is based on my daughter’s own reading experience and her journey through books, showing how incredible the literary world is.  
+The site offers an honest look at literacy, book reviews and gives the user potential to investigate other book related avenues. 
+Moving forwards, the project will have the ability (by signing up to Megan’s book club) to involve the user in more interactive ways.
 
-## **Design/Planning**
-I felt it important to make sure that the design was clean and simple, just like a good book, the content is the star. 
-It must be easy to navigate across all formats, be inviting and encourage the user to return to the site for information on new releases/reviews. 
-It also needed to reflect my daughter’s personality and show how books and reading have influenced her and have that enthusiasm rub off on the user.
 
-Since its inception, this project has changed in appearance from the original design wireframes (fig.1 below).
+## **UX**
+The purpose of this project is to present information about books. 
+Offering the right information to both new and returning users visiting the site, improves the user experience.
+By thinking about why the user would want to visit the site, I asked myself the following questions:
+
+- I'm looking for a place that will get my child interested in books.
+- Can I get regular updates and information on what to read or what is coming out soon?
+- Can I navigate the site in a way that is familiar to me? 
+- How does Megan know so much about books?
+- Is her information credible?
+- I'm looking for something to read, what do you recommend?
+- As a child, I want to find out what other children think about this book. 
+- As a teacher, I want something to read to my class, what would keep them invested?
+- I need to buy a gift, what would you recommend for his/her age?
+- Where can I buy the book?
+- Have I found what I'm looking for?
+- I want to find out more about Megan, where can I do this?
+- I want to ask Megan a question, can I get in touch?
+
+These user stories were the buildng blocks for my project and helped me to create the site from the ground up.
+I wanted the site to be easy to navigate across all formats, inviting the user to return again and again for new information. 
+It also needed to reflect Megan's personality, showing how books have had such an impact on her life, 
+and in return have a positive effect on the user by encouaging them to read. 
+  
+Since its inception, the project changed in appearance from the original design wireframes (fig.1 below).
+I had oroiginally intended to create a resume style page for Megan, based on her reading and writing achievements.
+It became apparent quite early on, that the initial design did not fit into the brief as well as I had hoped.
 
 ![original wireframes](https://i.imgur.com/mChICh5.jpg)
 
-Changes were made and a new, more simplistic, scrolling design was created to improve the user experience. 
-New wireframes acted as a base for each page so the content could be altered to suit the layout.
-It allowed me to be creatively responsive as each page was built, and structure the content accordingly. (fig.2 below)
+Changes were required to better fit the brief and so new wireframes (fig.2 below) were created using the content from the originals.
+These changes, better suited my user stories and the project became more of a magazine article than a resume.
+The new wireframes allowed me to be more creative and build each page more organically. Allowing me to use them as a template,
+I could create each page using the a theme, but respond to how the content sat and adjust it accordingly.
+Choosing a light, muted colour scheme helped to keep things subtle.  Just like a good book, the content is the star.
+The colours in the project help identify breaks in content, and highlight interactive elements of the project such as modals, buttons and menus.
+This makes for a good user experience and keeps things uniform.
 
 ![new wireframes](https://i.imgur.com/IMfaEtW.jpg)
 
 
-## **UX**
-The purpose of the website is to present the information about books and reading:
-- How rewarding it is to read
-- What to read
-- Diversity of books
-- Where books can take you
+## **Features**
 
+### **Current Features**
 
-## **User Stories**
-- As a reader, what do you recommend for me to read next?
-- As a child, I want someone my own age to offer their opinion on this book.
-- As a parent/teacher, I want something that will engage my child/class and keep them interested from the first word to the last.
-- Where can I find out more?
-- Can I buy the book?
-
-
-## **Current Features**
-
-### **Brand**			
+#### **Brand** 
 - ‘Munchkin Megan Presents’ informs the user that they have arrived at the site.
 
-### **Navigation Bar**	
+#### **Navigation Bar**	
 - Allows the user to navigate through the content of the site: Home, Reviews, Gallery, Contact.
 - Menu collapses on smaller devices for a better user experience.
 
-### **Book Club Modal**
+#### **Book Club Modal**
 - Encourages the user to sign up to Megan’s book club
 
-### **Home Page**
+#### **Home Page**
 - An ‘About Me’ section introduces Megan and begins building a rapport with the user.
 - An ‘I am NOT a Bookworm’ section highlights Megan’s enthusiasm for books, the video builds credibility with the user as they can see her passion for books.
 - The ‘365 Book Challenge’ section reinforces Megan’s passion for books again utilising video to highlight how books can be so important in a child’s development.
 
-### **Reviews Page**
+#### **Reviews Page**
 - The ‘Toppsta’ section shows Megan’s active involvement in book reviewing, backed up with a quote from the founder of the organisation – this again builds credibility with the user.
 - A ‘Favourites’ section highlights some of Megan’s favourite books with a review available and a link to buy should the user feel that want to read this particular book.
 - A ‘Coming Soon’ section gives the user information on what Megan is currently reading. A quote from the author enhances the section and build expectation.
 
-### **Gallery**
+#### **Gallery**
 - A gallery offers a collection of images that again showcase Megan’s adventure through books and literature. It helps build up a timeline of Megan’s achievements and accomplishments through reading and offers the user the ability to see what a great community the book world has.
 
-### **Contact**
+#### **Contact**
 - The contact page offers the user the ability to get in touch with Megan and ask her book related questions. This feature helps back up the information on the reviews page, as well as allowing the user to dive a little deeper if they feel they need further information before deciding on what to read next.
 
-### **Footer**
-- The footer enables the user to see more of Megan through her blog, personal ‘Toppsta’ review page and her social feeds.  
-- The blog enables the user to see more of Megan’s book related travels. 
-- The personal review page allows the user to see all of Megan’s reviews through ‘Toppsta’ as well as reviews from other readers, building their knowledge of books.
-- The social feeds provide information on Megan’s current activities.
+#### **Footer**
+- The footer enables the user to see more of Megan through external links:  
+    - The blog enables users to see more of Megan’s book related travels. 
+    - Toppsta - allows the user to see all of Megan’s reviews and access to the Toppsta website.
+    - Social feeds - allows access to Megans social accounts.
 
 
-## **Features to Implement**
+### **Features left to Implement**
 
-### **Megan’s Book Club**
-- This feature will allow users to sign up to a newsletter offering monthly updates and book giveaways. Content will include inside information, such as upcoming titles and releases. Insider interviews with authors, illustrators, and publishers, as well as details on upcoming book events.
+#### **Megan’s Book Club**
+- Allows users to sign up to a monthly newsletter where content will include:
+    - Prizes and book givaways
+    - Inside information, such as upcoming titles and releases. 
+    - Interviews with authors, illustrators, publishers etc. 
+    - Details on upcoming book events.
 
-### **Latest Review/Book of the Month**
-- The Coming soon feature is enhanced by a latest review section, and a book of the month feature allowing the user more information when deciding what to read next.  These can be changed as frequently as required and enhance the stature of the site and keep users coming back to see what is on offer in the upcoming months.
+#### **Latest Review/Book of the Month**
+- The Coming soon feature is enhanced by a latest review section, and a book of the month feature
+ allowing the user more information when deciding what to read next.  
+ These can be changed frequently to enhance the user expeirence and encourage users to return to see what is on offer in the upcoming months.
 
-### **Interviews**
-- A selection of video interviews that Megan has conducted, speaking to authors and illustrators about their work.  As the site grows, these interviews can be used alongside the coming soon section and encourage the user to come back to read the review.
+#### **Interviews**
+- A selection of video interviews that Megan has conducted, speaking to authors and illustrators about their work.  
 
 
 ## **Technologies Used**
 
-### **HTML (Hyper Text Mark-up Language)**
+#### **HTML (Hyper Text Mark-up Language)**
 - [Hypertext Mark-up Language (HTML)](https://www.w3schools.com/html/default.asp) is the standard mark-up language for documents designed to be displayed in a web browser It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. - Wikipedia 
 
-### **CSS (Cascading Style Sheets)**
+#### **CSS (Cascading Style Sheets)**
 - [Cascading Style Sheets (CSS)](https://www.w3schools.com/css/default.asp) is a style sheet language used for describing the presentation of a document written in a mark-up language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. - Wikipedia
 
-### **Bootstrap**
+#### **Bootstrap**
 - [Bootstrap](https://getbootstrap.com/) is a free and open source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. - Wikipedia
 
-### **GitHub**
+#### **GitHub**
 - [GitHub](https://github.com/), is a United States-based global company that provides hosting for software development version control using Git. - Wikipedia
 
-### **Gitpod**
+#### **Gitpod**
 - [Gitpod](https://www.gitpod.io/), is open-source IDE (Integrated Development Environment) based on Eclipse Theia.  It is used to create, modify, and save code.
 
-### **Git** 
+#### **Git** 
 - [Git](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. - Wikipedia
  
-### **Web Development Tools** 
+#### **Web Development Tools** 
 - [Web development tools](https://developers.google.com/web/tools/chrome-devtools) (often called dev-tools) allow web developers to test and debug their code. They are different from website builders and integrated development environments (IDEs) in that they do not assist in the direct creation of a webpage, rather they are tools used for testing the user interface of a website or web application. - Wikipedia
 
-### **W3C Validation**
+#### **W3C Validation**
 - [Mark-up Validation Service](https://validator.w3.org/) is a validator by the World Wide Web Consortium (W3C) that allows Internet users to check HTML and XHTML documents for well-formed mark-up. Mark-up validation is an important step towards ensuring the technical quality of web pages. – Wikipedia
 
-### **GIMP**
+#### **GIMP**
 - [GIMP](https://www.gimp.org/) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks. - Wikipedia
 
 
 ## **Testing**
-Each file was tested on multipe viewing platforms.  Chrome developer tools was used extensively and I took advantage of the ability to swap devices to see how each layout would look on different platforms.  
-All links responded and loaded within an accepatble time frame apart from IE where loading times were slower than expected and would result in a negative experience for the user. 
-Taking advantage of cross platform capability within my household and family members, I was able to test my project on a variety of Android, Apple and Windows applictions with repeated success.  
-I did not test this project on Opera due to issues installing the browser.
-Only iPhone5/SE had difficulty displying full screen width without overflow. This was however, limited to the navbar overlapping the jumbotron and obscuring the callout, and resolved by altering the displayed text.
-The site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.  
+I used the [W3C validator](https://validator.w3.org/) to check that both my HTML and CSS files contained valid code with no errors.
+I had issues with only one file, where in my reviews.html file I had used an anchor tag inside a button element on each of my six review items to take the user to an external purchasing site.
+To ensure the code was valid, I removed the button element and relocated the anchor tag so it was more aesthetically pleasing.
+When tested again, the code was valid with no errors.
+Another issue appeared for the iPhone5/SE, which has difficulty displying full screen width without overflow of the jumbotron and callout. 
+This has been resolved as best as possible, by altering the displayed text within the callout, to reduce the obsured text.
+
+I was advised by my mentor to 'fix' the navigation bar to the top of the screen, reducing the scroll time of the user.  
+While I respect his opinion, I felt that this threw off the aesthetics of the page and decided to leave the menu 'unfixed'. 
+
+Through Chrome developer tools, each file was tested on multipe viewing platforms. I took advantage of the ability to swap devices and see how each layout would look on different platforms.  
+The project was responsive, with all links and functions responding in an accepatble time frame. 
+IE and Edge were the only exception, where loading times were slower than Chrome and Safari, resulting in a negative experience for the user.
+Due to issues with installtion on my machine, this project has not been tested on Opera, and will require testing to ensure full cross browser functionallity. 
+
+From feedback through family members and a small select group of willing testers, the site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.
 
 ![testing spreadsheet](https://i.imgur.com/Pe4tCP3.jpg)
 
-### **Navigation**
+#### **Navigation**
 - Links to other .html files respond as expected with minimal loading on transfer.
 - Responsive menu works as expected on smaller devices.
 
-### **Modals**
+#### **Modals**
 - Jumbotron Modals open when requested.  At present, the information requested is not collected and clicking the sign-up(submit) button returns the user to the index.html/reviews.html respectively.
 - Review modals open for all six books when requested to do so and display the appropriate review and images.  Clicking on the ‘x’ or ‘close’ button, returns the user to the reviews section.
 
-### **Contact**
+#### **Contact**
 - The contact form collects the user’s information.  At present, the form is not connected to any external server and the information requested is not collected.  Completing the form and submitting returns the user to the top of the contact page. 
 
-### **Content/Video/Images**
+#### **Content/Video/Images**
 - Written content responds to screen width and is well proportioned.
 - Videos display responsively, play when requested and audio is functional.
 - On mobile and tablet devices, the videos respond to the gyroscope function of the device.
 - All clickable images respond as expected and links to external sources open in a new tab for a good user experience.
 
-### **Links**
+#### **Links**
 - Clickable links to external sites respond as expected.
 - All links open in a new tab for a good user experience.
 
-### **Footer**
+#### **Footer**
 - Links and clickable icons to external sites such as social media links respond well and have good load times.
 - All links open in a new tab for a good user experience.
 
@@ -169,42 +197,44 @@ The site looks most appealing on mobile devices and iPad, with the iPad display 
     - Follow the link for more information on how to do this: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 
-## **Content Credits**
+## **Credits**
+
+#### **Content**
 - HTML
 - CSS
-- Bootstrap (including JS functions to activate modals) - https://getbootstrap.com/docs/4.5/getting-started/introduction/
-- GitHub (including GitPod) - https://github.com/
-- CDN.JS - https://cdnjs.com/
-- Font Awesome - https://fontawesome.com/
-- Google Fonts - https://fonts.google.com/
-- Imgur (For all image hosting, excluding jumbotron images and videos) - https://imgur.com/
-- CSS Tricks (For Jumbotron display and fluid width video) - https://css-tricks.com/
-- Layout - Content inspired by Code Institute Mini Projects.
-- Navbar - Content inspired by ‘Whiskey Drop’ Mini Project - Code Institute.
-- Modals - Content inspired by ‘Whiskey Drop’ Mini Project - Code Institute.
-- Quotes - Content inspired by ‘Whiskey Drop’ Mini Project - Code Institute.
-- Gallery - Content inspired by ‘Love Running’ Mini Project - Code Institute.
-- Contact - Content inspired by ‘Resume’ (Rosie Odenkirk) Mini Project - Code Institute.
-- Footer - Content inspired by ‘Resume’ (Rosie Odenkirk) Mini Project - Code Institute.
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/), including JS functions to activate modals.
+- [GitHub](https://github.com/), including GitPod. 
+- [CDN.JS](https://cdnjs.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Imgur](https://imgur.com/), for all image hosting, excluding jumbotron images and videos.
+- [CSS Tricks](https://css-tricks.com/), for Jumbotron display and fluid width video .
+- [Whiskey Drop](https://github.com/bicks79/Bootstrap/blob/master/index.html), Code Institute mini project.
+    - Navbar, Modals, Quotes.
+- [Resume](https://github.com/bicks79/UCD-resume), Code Institute mini project.
+    - Contact, Footer.
+- [Love Running](https://repl.it/@Bicks79/Love-Running-1#index.html), Code Institute mini project.
+    - Gallery 
 
 
-## **Media Credits**
+#### **Media**
 - All images of Megan were taken by myself or my wife, Donna Nicholson, and therefore we give consent for them to be used in this project.
 - I am NOT a bookworm video was recorded at Central library Coventry by myself and therefore give consent to use it in this project.
-- 365 Book Challenge video is property of CBBC (https://www.bbc.co.uk/cbbc). This copy was given to us by then producer Ben Franklin. 
-- Hero-image (Wrike.com) https://www.wrike.com/blog/15-books-every-manager-should-read/
-- Reviews-hero-image (The New Arab) https://english.alaraby.co.uk/english/fullimage/a029b20e-5681-493d-8298-712a4c2c2919/6b25dc50-e55f-4469-893c-c6673775b50d
-- Gallery-hero-image (Guy Diehl; Pinterest) https://www.pinterest.co.uk/pin/329185053990447384/
-- Contact-hero-image (Scott Kyle Graphic Design) https://scottakyle.wordpress.com/2009/02/04/vintage-postcards/
-- Quote-image (Supplied by Georgina Atwell; Toppsta) https://toppsta.com/
-- Quote-image (Supplied by BB Taylor; BB Taylor Books) https://www.bbtaylor-books.com/
-- Vigilante Tooth Fairy book cover (BB Taylor/Matthew James Publishing) https://www.matthewjamespublishing.com/products/tiny-tree/the-vigilante-tooth-fairy
-- Scavengers book cover (Waterstones) https://www.waterstones.com/book/scavengers/darren-simpson/9781474956024
-- Jinxed book cover (Waterstones) https://www.waterstones.com/book/jinxed/amy-mcculloch/9781471169960
-- Gaslight book cover (Waterstones) https://www.waterstones.com/book/gaslight/eloise-williams/9781910080542
-- In The Key of Code book cover (Waterstones) https://www.waterstones.com/book/in-the-key-of-code/aimee-lucido/9781406389333
-- The Boy Who Flew book cover (Waterstones) https://www.waterstones.com/book/the-boy-who-flew/fleur-hitchcock/9781788004381
-- Happy Girl Lucky book cover (Waterstones) https://www.waterstones.com/book/happy-girl-lucky/holly-smale/9780008254148
+- 365 Book Challenge video is property of [CBBC](https://www.bbc.co.uk/cbbc). This copy was given to us by then producer Ben Franklin. 
+- [Wrike.com](https://www.wrike.com/blog/15-books-every-manager-should-read/), index.html hero image.
+- [The New Arab](https://english.alaraby.co.uk/english/fullimage/a029b20e-5681-493d-8298-712a4c2c2919/6b25dc50-e55f-4469-893c-c6673775b50d), review.html hero image
+- [Guy Diehl](https://www.pinterest.co.uk/pin/329185053990447384/), gallery hero image.
+- [Scott Kyle Graphic Design](https://scottakyle.wordpress.com/2009/02/04/vintage-postcards/), contact hero image.
+- [Georgina Atwell; Toppsta](https://toppsta.com/), quote image including written content.
+- [BB Taylor; BB Taylor Books](https://www.bbtaylor-books.com), quote image including written content.
+- [Matthew James Publishing](https://www.matthewjamespublishing.com/products/tiny-tree/the-vigilante-tooth-fairy), Vigilante Tooth Fairy image.
+- [Waterstones](https://www.waterstones.com/), for the following book images:
+    - [Scavengers](https://www.waterstones.com/book/scavengers/darren-simpson/9781474956024)
+    - [Jinxed](https://www.waterstones.com/book/jinxed/amy-mcculloch/9781471169960)
+    - [Gaslight](https://www.waterstones.com/book/gaslight/eloise-williams/9781910080542)
+    - [In The Key of Code](https://www.waterstones.com/book/in-the-key-of-code/aimee-lucido/9781406389333)
+    - [The Boy Who Flew](https://www.waterstones.com/book/the-boy-who-flew/fleur-hitchcock/9781788004381)
+    - [Happy Girl Lucky](https://www.waterstones.com/book/happy-girl-lucky/holly-smale/9780008254148)
 
 
 ## **Acknowledgements**
