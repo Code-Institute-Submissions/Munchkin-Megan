@@ -256,5 +256,5 @@ From feedback through family members and a small select group of willing testers
 In the first few days, I had a confidence crisis in my ability, that stopped me from getting the project off the ground.  
 I relied on previous mini projects to help build the bones of my site as I was unsure of where to start.
 Although this code is not my own, the site would not be the same without it.
-Allowing myself time to re-visit previous instructional videos gave me the ability to fully understand the code I was using
-and altering. I now feel more confident in my abilities, and feel that I can create godd, clean code of my own moving forwards.   
+Allowing myself time to re-visit previous instructional videos gave me the ability to fully understand the code I was utilising
+and altering. I am now more confident in my abilities, and feel that I can create good, clean code of my own moving forwards.   
