@@ -13,41 +13,41 @@ The purpose of this project is to present information about books.
 Offering the right information to both new and returning users visiting the site, improves the user experience.
 By thinking about why the user would want to visit the site, I asked myself the following questions:
 
-- I'm looking for a place that will get my child interested in books.
-- Can I get regular updates and information on what to read or what is coming out soon?
-- Can I navigate the site in a way that is familiar to me? 
-- How does Megan know so much about books?
-- Is her information credible?
-- I'm looking for something to read, what do you recommend?
-- As a child, I want to find out what other children think about this book. 
-- As a teacher, I want something to read to my class, what would keep them invested?
-- I need to buy a gift, what would you recommend for his/her age?
-- Where can I buy the book?
-- Have I found what I'm looking for?
-- I want to find out more about Megan, where can I do this?
-- I want to ask Megan a question, can I get in touch?
+- As a user, I'm looking for a place that will get my child interested in books.
+- As a user, I want updates and information on what to read or what is coming out soon.
+- As a user, can I navigate the site in a way that is familiar to me? 
+- As a user, I want information on how Megan knows so much about books.
+- As a user, I want to know if her information is reliable.
+- As a user, I'm looking for something to read, what do you recommend?
+- As a user, I want to find out what other children think about this book. 
+- As a user, I want something to read to my class, what would keep them invested?
+- As a user, I need to buy a gift, what would you recommend for their age group?
+- As a user, I want to know where can I buy the book?
+- As a user, I want to find out more about Megan, where can I do this?
+- As a user, I want to ask Megan a question, can I get in touch?
 
 These user stories were the buildng blocks for my project and helped me to create the site from the ground up.
 I wanted the site to be easy to navigate across all formats, inviting the user to return again and again for new information. 
 It also needed to reflect Megan's personality, showing how books have had such an impact on her life, 
 and in return have a positive effect on the user by encouaging them to read. 
   
-Since its inception, the project changed in appearance from the original design wireframes (fig.1 below).
+Since its inception, the project changed in appearance. The wireframes below show the original mobile and desktop design.
 I had oroiginally intended to create a resume style page for Megan, based on her reading and writing achievements.
 It became apparent quite early on, that the initial design did not fit into the brief as well as I had hoped.
 
-![original wireframes](https://i.imgur.com/mChICh5.jpg)
+![original wireframes](https://i.imgur.com/mChICh5.jpg?1)
+![original wireframes](https://i.imgur.com/EO8TLlJ.jpg?1)
 
-Changes were required to better fit the brief and so new wireframes (fig.2 below) were created using the content from the originals.
-These changes, better suited my user stories and the project became more of a magazine article than a resume.
+Changes were required to better fit the brief and so new wireframes were created using the content from the originals.
+These changes (below), better suited my user stories and the project became more of a magazine article than a resume.
 The new wireframes allowed me to be more creative and build each page more organically. Allowing me to use them as a template,
 I could create each page using the a theme, but respond to how the content sat and adjust it accordingly.
 Choosing a light, muted colour scheme helped to keep things subtle.  Just like a good book, the content is the star.
 The colours in the project help identify breaks in content, and highlight interactive elements of the project such as modals, buttons and menus.
 This makes for a good user experience and keeps things uniform.
 
-![new wireframes](https://i.imgur.com/IMfaEtW.jpg)
-
+![new wireframes](https://i.imgur.com/IMfaEtW.jpg?1)
+![new wireframes](https://i.imgur.com/LlpIilF.jpg?1)
 
 ## **Features**
 
@@ -157,13 +157,18 @@ While I respect his opinion, I felt that this effected the aesthetics of the pag
 
 My mentor also advised to check for 'white space' in my gallery at the responsive breakpoints. 
 I have spent some considerable time trying to remove as much of the 'white space' as possible. 
-While some still remains, it is now far less than when I initially built my gallery space.
+While some still remains, it is not enought to disrupt the user experience.
 
 I was advised to extend the contact form width for mobile devices. In doing this, the form also extended at larger breakpoints.
-In using media queries to set each individual breakpoint, I found that the media query was not working correctly for my form, but other media queries were still responding.
-Due to time restraints, I took the decision to set the form width to 70% across all breakpoints.
-I have contacted both student support and my mentor, but at the time of submission have had no response.
-I will implement the media query correctly when I have spoken to the support team. 
+In using media queries to set each individual breakpoint, I found that the media query was not working correctly for my form.
+My mentor was happy with my decision to leave the width of the contact form to 85% at all breakpoints.
+
+There was an issue with the indentation of my code that my mentor wanted to see corrected.
+I re-arranged the code and my mentor noted it was still untidy.  We discovered that the appearance of the code differed from the Gitpod IDE
+to the static version on my Github repository.  After seeking advise on slack, there was no solution to why my code appeared different in the
+respective viewers.  It was decided thatas long as the code was good in the IDE, a note should be placed within the README.md file to acknowledge
+the poor appearance on Github.
+
 
 #### **Navigation**
 - Links to other .html files respond as expected with minimal loading on transfer.
@@ -260,8 +265,11 @@ I will implement the media query correctly when I have spoken to the support tea
     - [Joseph Roberts](https://www.linkedin.com/in/joseph-roberts-4a2a53122/)
     - [Kevin Rogerson](https://www.linkedin.com/in/kevin-rogerson-84304066/)
     - [Lewis Hamilton](https://www.linkedin.com/in/lewis-hamilton-bb1b39a7/)
-- Thank you to my Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/), for his guidance and support through this project.  He has provided solutions and ideas that have made a difference in this project.
-- Thank you to [Tom Garrett](https://www.linkedin.com/in/tom-garratt-303284168/), for his advice and support during my confidence crisis.
+- Thank you to my Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/), for his guidance and support through this project.  
+He has been a great help in getting me through this project, especially at the 11th hour when I was incredibly stressed and short tempered, he remaind
+calm, collected and offered his full support. I hope you are ready for milestone 2!
+- Thank you to [Tom Garrett](https://www.linkedin.com/in/tom-garratt-303284168/), for his advice and support during my confidence crisis in the early days.
+You helped steady the ship and get me bck on track.
 
 - [Code Institute](https://codeinstitute.net/): In creating this project, I have re-used code from previous mini projects during my studies.
 In the first few days, I had a confidence crisis in my ability, that stopped me from getting the project off the ground.  
