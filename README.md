@@ -142,9 +142,6 @@ When tested again, the code was valid with no errors.
 Another issue appeared for the iPhone5/SE, which has difficulty displying full screen width without overflow of the jumbotron and callout. 
 This has been resolved as best as possible, by altering the displayed text within the callout, to reduce the obsured text.
 
-I was advised by my mentor to 'fix' the navigation bar to the top of the screen, reducing the scroll time of the user.  
-While I respect his opinion, I felt that this threw off the aesthetics of the page and decided to leave the menu 'unfixed'. 
-
 Through Chrome developer tools, each file was tested on multipe viewing platforms. I took advantage of the ability to swap devices and see how each layout would look on different platforms.  
 The project was responsive, with all links and functions responding in an accepatble time frame. 
 IE and Edge were the only exception, where loading times were slower than Chrome and Safari, resulting in a negative experience for the user.
@@ -153,6 +150,20 @@ Due to issues with installtion on my machine, this project has not been tested o
 From feedback through family members and a small select group of willing testers, the site looks most appealing on mobile devices and iPad, with the iPad display being particularly attractive.
 
 ![testing spreadsheet](https://i.imgur.com/Pe4tCP3.jpg)
+
+#### **Mentor Advice**
+During my final consultation, I was advised by my mentor to 'fix' the navigation bar to the top of the screen, reducing the scroll time of the user.  
+While I respect his opinion, I felt that this effected the aesthetics of the page and decided to leave the menu 'unfixed'.
+
+My mentor also advised to check for 'white space' in my gallery at the responsive breakpoints. 
+I have spent some considerable time trying to remove as much of the 'white space' as possible. 
+While some still remains, it is now far less than when I initially built my gallery space.
+
+I was advised to extend the contact form width for mobile devices. In doing this, the form also extended at larger breakpoints.
+In using media queries to set each individual breakpoint, I found that the media query was not working correctly for my form, but other media queries were still responding.
+Due to time restraints, I took the decision to set the form width to 70% across all breakpoints.
+I have contacted both student support and my mentor, but at the time of submission have had no response.
+I will implement the media query correctly when I have spoken to the support team. 
 
 #### **Navigation**
 - Links to other .html files respond as expected with minimal loading on transfer.
