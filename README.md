@@ -265,7 +265,7 @@ the poor appearance on Github.
     - [Joseph Roberts](https://www.linkedin.com/in/joseph-roberts-4a2a53122/)
     - [Kevin Rogerson](https://www.linkedin.com/in/kevin-rogerson-84304066/)
     - [Lewis Hamilton](https://www.linkedin.com/in/lewis-hamilton-bb1b39a7/)
-- Thank you to my Mentor [Precious Ljege](https://www.linkedin.com/in/precious-ijege-908a00168/), for his guidance and support through this project.  
+- Thank you to my Mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), for his guidance and support through this project.  
 He has been a great help in getting me through this project, especially at the 11th hour when I was incredibly stressed and short tempered, he remaind
 calm, collected and offered his full support. I hope you are ready for milestone 2!
 - Thank you to [Tom Garrett](https://www.linkedin.com/in/tom-garratt-303284168/), for his advice and support during my confidence crisis in the early days.
